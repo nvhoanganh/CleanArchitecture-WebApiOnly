@@ -1,7 +1,6 @@
 using CER.Application;
 using CER.Application.Common.Interfaces;
 using CER.Infrastructure;
-using CER.Infrastructure.Persistence;
 using CER.WebUI.Filters;
 using CER.WebUI.Services;
 using FluentValidation.AspNetCore;
@@ -69,7 +68,6 @@ namespace CER.WebUI
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-                app.UseMigrationsEndPoint();
             }
             else
             {
