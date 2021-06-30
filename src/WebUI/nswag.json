@@ -110,7 +110,7 @@
       "enumNameGeneratorType": null,
       "serviceHost": null,
       "serviceSchemes": null,
-      "output": "ClientApp/src/app/web-api-client.ts"
+      "output": "../../src/WebUI/web-api-client.ts"
     }
   }
 }
