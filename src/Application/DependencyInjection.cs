@@ -1,11 +1,11 @@
 ﻿using AutoMapper;
-using CER.Application.Common.Behaviours;
+using Northwind.Application.Common.Behaviours;
 using FluentValidation;
 using MediatR;
 using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;
 
-namespace CER.Application
+namespace Northwind.Application
 {
     public static class DependencyInjection
     {

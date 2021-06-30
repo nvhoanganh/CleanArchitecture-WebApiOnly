@@ -1,9 +1,9 @@
-﻿using CER.Application.Common.Interfaces;
-using CER.Infrastructure.Services;
+﻿using Northwind.Application.Common.Interfaces;
+using Northwind.Infrastructure.Services;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace CER.Infrastructure
+namespace Northwind.Infrastructure
 {
     public static class DependencyInjection
     {

@@ -1,7 +1,7 @@
-﻿using CER.Domain.Common;
+﻿using Northwind.Domain.Common;
 using MediatR;
 
-namespace CER.Application.Common.Models
+namespace Northwind.Application.Common.Models
 {
     public class DomainEventNotification<TDomainEvent> : INotification where TDomainEvent : DomainEvent
     {

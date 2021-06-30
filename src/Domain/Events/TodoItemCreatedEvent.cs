@@ -1,7 +1,7 @@
-﻿using CER.Domain.Common;
-using CER.Domain.Entities;
+﻿using Northwind.Domain.Common;
+using Northwind.Domain.Entities;
 
-namespace CER.Domain.Events
+namespace Northwind.Domain.Events
 {
     public class TodoItemCreatedEvent : DomainEvent
     {

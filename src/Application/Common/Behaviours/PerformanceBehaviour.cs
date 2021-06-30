@@ -1,11 +1,11 @@
 ﻿using MediatR;
 using Microsoft.Extensions.Logging;
-using CER.Application.Common.Interfaces;
+using Northwind.Application.Common.Interfaces;
 using System.Diagnostics;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace CER.Application.Common.Behaviours
+namespace Northwind.Application.Common.Behaviours
 {
     public class PerformanceBehaviour<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse>
     {

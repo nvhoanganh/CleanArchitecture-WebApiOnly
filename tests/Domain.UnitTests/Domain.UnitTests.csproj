@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
-    <RootNamespace>CER.Domain.UnitTests</RootNamespace>
-    <AssemblyName>CER.Domain.UnitTests</AssemblyName>
+    <RootNamespace>Northwind.Domain.UnitTests</RootNamespace>
+    <AssemblyName>Northwind.Domain.UnitTests</AssemblyName>
 
     <IsPackable>false</IsPackable>
   </PropertyGroup>

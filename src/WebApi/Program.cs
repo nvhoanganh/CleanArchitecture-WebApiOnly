@@ -7,7 +7,7 @@ using Microsoft.Extensions.Logging;
 using System;
 using System.Threading.Tasks;
 
-namespace CER.WebUI
+namespace Northwind.WebUI
 {
     public class Program
     {

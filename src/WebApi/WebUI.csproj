@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
-    <RootNamespace>CER.WebUI</RootNamespace>
-    <AssemblyName>CER.WebUI</AssemblyName>
+    <RootNamespace>Northwind.WebUI</RootNamespace>
+    <AssemblyName>Northwind.WebUI</AssemblyName>
     <TypeScriptCompileBlocked>true</TypeScriptCompileBlocked>
     <TypeScriptToolsVersion>Latest</TypeScriptToolsVersion>
     <IsPackable>true</IsPackable>

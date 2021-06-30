@@ -1,4 +1,4 @@
-﻿namespace CER.Domain.Enums
+﻿namespace Northwind.Domain.Enums
 {
     public enum PriorityLevel
     {

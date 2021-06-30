@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace CER.Application.Common.Models
+namespace Northwind.Application.Common.Models
 {
     public class Result
     {

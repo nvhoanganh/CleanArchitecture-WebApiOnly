@@ -1,11 +1,11 @@
-﻿using CER.Application.Common.Exceptions;
+﻿using Northwind.Application.Common.Exceptions;
 using FluentAssertions;
 using FluentValidation.Results;
 using NUnit.Framework;
 using System;
 using System.Collections.Generic;
 
-namespace CER.Application.UnitTests.Common.Exceptions
+namespace Northwind.Application.UnitTests.Common.Exceptions
 {
     public class ValidationExceptionTests
     {

@@ -1,10 +1,8 @@
 ﻿using NUnit.Framework;
 using System.Threading.Tasks;
 
-namespace CER.Application.IntegrationTests
+namespace Northwind.Application.IntegrationTests
 {
-    using static Testing;
-
     public class TestBase
     {
         [SetUp]

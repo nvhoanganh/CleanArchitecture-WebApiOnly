@@ -1,7 +1,7 @@
-﻿using CER.Application.Common.Interfaces;
+﻿using Northwind.Application.Common.Interfaces;
 using System;
 
-namespace CER.Infrastructure.Services
+namespace Northwind.Infrastructure.Services
 {
     public class DateTimeService : IDateTime
     {

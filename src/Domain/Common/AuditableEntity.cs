@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CER.Domain.Common
+namespace Northwind.Domain.Common
 {
     public abstract class AuditableEntity
     {

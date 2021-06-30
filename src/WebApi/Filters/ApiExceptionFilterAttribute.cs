@@ -1,11 +1,11 @@
-﻿using CER.Application.Common.Exceptions;
+﻿using Northwind.Application.Common.Exceptions;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 using System;
 using System.Collections.Generic;
 
-namespace CER.WebUI.Filters
+namespace Northwind.WebUI.Filters
 {
     public class ApiExceptionFilterAttribute : ExceptionFilterAttribute
     {

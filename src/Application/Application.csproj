@@ -1,8 +1,8 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
-    <RootNamespace>CER.Application</RootNamespace>
-    <AssemblyName>CER.Application</AssemblyName>
+    <RootNamespace>Northwind.Application</RootNamespace>
+    <AssemblyName>Northwind.Application</AssemblyName>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0"/>

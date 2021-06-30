@@ -1,6 +1,6 @@
-﻿using CER.Application.Common.Exceptions;
-using CER.Application.Common.Interfaces;
-using CER.Application.Common.Security;
+﻿using Northwind.Application.Common.Exceptions;
+using Northwind.Application.Common.Interfaces;
+using Northwind.Application.Common.Security;
 using MediatR;
 using System;
 using System.Linq;
@@ -8,7 +8,7 @@ using System.Reflection;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace CER.Application.Common.Behaviours
+namespace Northwind.Application.Common.Behaviours
 {
     public class AuthorizationBehaviour<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse>
     {

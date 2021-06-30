@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace CER.Domain.Common
+namespace Northwind.Domain.Common
 {
     public interface IHasDomainEvent
     {

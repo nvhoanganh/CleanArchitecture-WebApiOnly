@@ -1,7 +1,7 @@
-﻿using CER.Domain.Common;
+﻿using Northwind.Domain.Common;
 using System.Threading.Tasks;
 
-namespace CER.Application.Common.Interfaces
+namespace Northwind.Application.Common.Interfaces
 {
     public interface IDomainEventService
     {

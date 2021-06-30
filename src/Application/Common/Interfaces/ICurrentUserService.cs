@@ -1,4 +1,4 @@
-﻿namespace CER.Application.Common.Interfaces
+﻿namespace Northwind.Application.Common.Interfaces
 {
     public interface ICurrentUserService
     {

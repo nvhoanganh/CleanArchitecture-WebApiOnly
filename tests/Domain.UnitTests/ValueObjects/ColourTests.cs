@@ -1,9 +1,9 @@
-﻿using CER.Domain.Exceptions;
-using CER.Domain.ValueObjects;
+﻿using Northwind.Domain.Exceptions;
+using Northwind.Domain.ValueObjects;
 using FluentAssertions;
 using NUnit.Framework;
 
-namespace CER.Domain.UnitTests.ValueObjects
+namespace Northwind.Domain.UnitTests.ValueObjects
 {
     public class ColourTests
     {

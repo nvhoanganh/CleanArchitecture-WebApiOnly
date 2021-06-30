@@ -1,10 +1,10 @@
-﻿using CER.Application.Common.Interfaces;
+﻿using Northwind.Application.Common.Interfaces;
 using MediatR.Pipeline;
 using Microsoft.Extensions.Logging;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace CER.Application.Common.Behaviours
+namespace Northwind.Application.Common.Behaviours
 {
     public class LoggingBehaviour<TRequest> : IRequestPreProcessor<TRequest>
     {

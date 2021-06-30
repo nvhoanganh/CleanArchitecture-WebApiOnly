@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace CER.WebUI.Controllers
+namespace Northwind.WebUI.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CER.Application.Common.Exceptions
+namespace Northwind.Application.Common.Exceptions
 {
     public class ForbiddenAccessException : Exception
     {

@@ -1,8 +1,8 @@
-﻿using CER.Application.Common.Interfaces;
+﻿using Northwind.Application.Common.Interfaces;
 using Microsoft.AspNetCore.Http;
 using System.Security.Claims;
 
-namespace CER.WebUI.Services
+namespace Northwind.WebUI.Services
 {
     public class CurrentUserService : ICurrentUserService
     {

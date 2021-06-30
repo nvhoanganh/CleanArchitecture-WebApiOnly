@@ -1,10 +1,10 @@
-﻿using CER.Domain.Common;
-using CER.Domain.Enums;
-using CER.Domain.Events;
+﻿using Northwind.Domain.Common;
+using Northwind.Domain.Enums;
+using Northwind.Domain.Events;
 using System;
 using System.Collections.Generic;
 
-namespace CER.Domain.Entities
+namespace Northwind.Domain.Entities
 {
     public class TodoItem : AuditableEntity, IHasDomainEvent
     {

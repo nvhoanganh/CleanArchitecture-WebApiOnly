@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CER.Domain.Exceptions
+namespace Northwind.Domain.Exceptions
 {
     public class UnsupportedColourException : Exception
     {

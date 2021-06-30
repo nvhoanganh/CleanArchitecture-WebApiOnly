@@ -1,9 +1,9 @@
 using System.Linq;
 using System.Threading.Tasks;
-using CER.Application.Common.Interfaces;
-using CER.Application.Common.Models;
+using Northwind.Application.Common.Interfaces;
+using Northwind.Application.Common.Models;
 
-namespace CER.Infrastructure.Services
+namespace Northwind.Infrastructure.Services
 {
     public class IdentityService : IIdentityService
     {

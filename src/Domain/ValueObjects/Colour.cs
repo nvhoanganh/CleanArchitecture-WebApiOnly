@@ -1,9 +1,9 @@
-﻿using CER.Domain.Common;
-using CER.Domain.Exceptions;
+﻿using Northwind.Domain.Common;
+using Northwind.Domain.Exceptions;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace CER.Domain.ValueObjects
+namespace Northwind.Domain.ValueObjects
 {
     public class Colour : ValueObject
     {

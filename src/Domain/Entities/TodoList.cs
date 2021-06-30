@@ -1,8 +1,8 @@
-﻿using CER.Domain.Common;
-using CER.Domain.ValueObjects;
+﻿using Northwind.Domain.Common;
+using Northwind.Domain.ValueObjects;
 using System.Collections.Generic;
 
-namespace CER.Domain.Entities
+namespace Northwind.Domain.Entities
 {
     public class TodoList : AuditableEntity
     {

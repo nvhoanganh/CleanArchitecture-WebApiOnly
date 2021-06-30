@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CER.Application.WeatherForecasts.Queries.GetWeatherForecasts
+namespace Northwind.Application.WeatherForecasts.Queries.GetWeatherForecasts
 {
     public class WeatherForecast
     {

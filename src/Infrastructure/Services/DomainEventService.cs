@@ -1,12 +1,12 @@
-﻿using CER.Application.Common.Interfaces;
-using CER.Application.Common.Models;
-using CER.Domain.Common;
+﻿using Northwind.Application.Common.Interfaces;
+using Northwind.Application.Common.Models;
+using Northwind.Domain.Common;
 using MediatR;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Threading.Tasks;
 
-namespace CER.Infrastructure.Services
+namespace Northwind.Infrastructure.Services
 {
     public class DomainEventService : IDomainEventService
     {

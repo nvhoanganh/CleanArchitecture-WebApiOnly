@@ -1,8 +1,8 @@
-using CER.Application;
-using CER.Application.Common.Interfaces;
-using CER.Infrastructure;
-using CER.WebUI.Filters;
-using CER.WebUI.Services;
+using Northwind.Application;
+using Northwind.Application.Common.Interfaces;
+using Northwind.Infrastructure;
+using Northwind.WebUI.Filters;
+using Northwind.WebUI.Services;
 using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -14,7 +14,7 @@ using NSwag;
 using NSwag.Generation.Processors.Security;
 using System.Linq;
 
-namespace CER.WebUI
+namespace Northwind.WebUI
 {
     public class Startup
     {

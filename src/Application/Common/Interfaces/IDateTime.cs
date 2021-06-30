@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CER.Application.Common.Interfaces
+namespace Northwind.Application.Common.Interfaces
 {
     public interface IDateTime
     {

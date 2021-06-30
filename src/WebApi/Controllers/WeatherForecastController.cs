@@ -1,9 +1,9 @@
-﻿using CER.Application.WeatherForecasts.Queries.GetWeatherForecasts;
+﻿using Northwind.Application.WeatherForecasts.Queries.GetWeatherForecasts;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace CER.WebUI.Controllers
+namespace Northwind.WebUI.Controllers
 {
     public class WeatherForecastController : ApiControllerBase
     {

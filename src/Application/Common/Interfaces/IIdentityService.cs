@@ -1,7 +1,7 @@
-﻿using CER.Application.Common.Models;
+﻿using Northwind.Application.Common.Models;
 using System.Threading.Tasks;
 
-namespace CER.Application.Common.Interfaces
+namespace Northwind.Application.Common.Interfaces
 {
     public interface IIdentityService
     {

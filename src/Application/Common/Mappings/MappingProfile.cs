@@ -3,7 +3,7 @@ using System;
 using System.Linq;
 using System.Reflection;
 
-namespace CER.Application.Common.Mappings
+namespace Northwind.Application.Common.Mappings
 {
     public class MappingProfile : Profile
     {
