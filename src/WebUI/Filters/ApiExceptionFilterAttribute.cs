@@ -134,6 +134,9 @@ namespace CER.WebUI.Filters
                 Type = "https://tools.ietf.org/html/rfc7231#section-6.6.1"
             };
 
+            Console.WriteLine($"Exception: {context.Exception.Message}");
+            Console.WriteLine($"Exception: {context.Exception.StackTrace}");
+
             context.Result = new ObjectResult(details)
             {
                 StatusCode = StatusCodes.Status500InternalServerError

@@ -12,6 +12,7 @@ namespace CER.Infrastructure
             services.AddScoped<IDomainEventService, DomainEventService>();
 
             services.AddTransient<IDateTime, DateTimeService>();
+            services.AddTransient<IIdentityService, IdentityService>();
 
             return services;
         }
